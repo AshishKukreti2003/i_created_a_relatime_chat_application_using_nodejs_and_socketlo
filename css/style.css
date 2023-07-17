@@ -6,6 +6,27 @@
     height: 50px;
 }
 
+.container{
+    max-width: 955px;
+    background-color: red;
+    margin: auto;
+    height: 60vh;
+
+}
+
+.message{
+    background-color: grey;
+    width: ;
+}
+
+.left{
+
+}
+
+.right{
+
+}
+
 /* body{
     background-image: linear-gradient(rgb(92,100,221),purple);
 } */
