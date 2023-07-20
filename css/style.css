@@ -16,15 +16,21 @@
 
 .message{
     background-color: grey;
-    width: ;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .left{
-
+    float: left;
+    clear: both;
 }
 
 .right{
-
+    float: right;
+    clear: both;
 }
 
 /* body{
