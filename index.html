@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IChat</title>
+    <script src="http://localhost:8000/socket.io.js"></script>
     <script src="js/client.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,6 +15,13 @@
     <div class="container">
         <div class="message right">Ashish: Hey how are you?</div>
         <div class="message left">Rohan: Bhai I am fine. How about you</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
     </div>
 </body>
 </html>
